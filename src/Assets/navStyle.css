@@ -1,0 +1,81 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar-logo img {
+    height: 60px; 
+    margin-right: 20px;
+  }
+  
+  .navbar-tab {
+    display: flex;
+    flex-grow: 1; 
+    /* justify-content: center;  */
+  }
+  
+  .horizontal-line {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-data {
+    margin: 0 10px; 
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .nav-data:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(100, 0, 0);
+  }
+
+.nav-tab {
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .modal {
+    position: absolute;
+    top: 90px; 
+    left: 5rem;
+    background: white;
+    color:"black";
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width:60%;
+  }
+ 
+  .modal-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:"black"
+  }
+  
+  .modal-subcategory li {
+    margin-bottom: 5px;
+  }
+  
+  .modal-content {
+    max-width: 300px; 
+  }
+
+.modal-subcategory {
+    column-count: 3; 
+   /* // column-gap: 5px;  */
+  }
+  
+  .modal-subcategory ul {
+    list-style: none;
+    padding: 0;
+  }
